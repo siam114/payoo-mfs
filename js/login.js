@@ -13,7 +13,7 @@ document.getElementById('login-btn').addEventListener('click', function(event){
     // step-4: validation numner and pin
     // this is temporary. pore onno method use korbo
     if(phoneNumber === '5' && pinNumber=== '1234'){
-          window.location.href = '../home.html';
+          window.location.href = './home.html';
         // step-5 : allow user to use the website
     }else{
         alert('wrong phone number and pin')
